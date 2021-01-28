@@ -1,4 +1,42 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 70px auto 500px;
+}
+
+.header {
+    background-color: #f3f3f3;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.header-left a h2{
+    color: black;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.header-right ul {
+    float: right;
+    margin-top: 25px;
+}
+
+.header-right ul li{
+    display: inline;
+    padding: 0 10px;
+}
+
+.header-right ul li a {
+    color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
 }
