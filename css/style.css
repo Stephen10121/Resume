@@ -7,17 +7,23 @@
 
 .grid {
     display: grid;
-    grid-template-rows: 70px auto 500px;
+    grid-template-rows: 70px 1000px 500px;
+    background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .header {
-    background-color: #f3f3f3;
     display: grid;
     grid-template-columns: 20% 80%;
+    border-bottom: 1px solid black;
 }
 
 .header-left a h2{
-    color: black;
+    color: white;
+    text-shadow: grey 1px 1px;
+    text-transform: uppercase;
     margin-top: 15px;
     margin-left: 10px;
 }
@@ -34,9 +40,39 @@
 
 .header-right ul li a {
     color: black;
+    text-shadow: #2E5090 1px 1px;
+    text-transform: uppercase;
+}
+
+.main-main center img{
+    margin-top: 100px;
+}
+
+.main-main center h2{
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.about {
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.about-right {
+    color: white;
+    background-color: #2E5090;
+}
+
+.about-left {
+    background-color: #2E5090;
+}
+
+.about-left center img {
+    height: 1000px;
 }
 
 .footer {
-    background-color: black;
+    background-color: #2E5090;
     color: white;
 }
